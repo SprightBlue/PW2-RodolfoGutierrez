@@ -1,0 +1,35 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightgoldenrodyellow;
+}
+
+h1, h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+hr {
+    border: 1px solid lightcoral;
+}
+
+article, section, table {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    color: grey; 
+    background-color: lightgreen;    
+}
+
+form {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: lightgreen;
+    margin-bottom: 24px;
+}
